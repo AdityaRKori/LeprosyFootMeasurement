@@ -106,13 +106,13 @@ source venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
 Project structure (recommended)
-LeprosyFootMeasurement/
-├── app.py                     # Streamlit UI
-├── model/                     # Saved clustering & classification artifacts
-├── notebooks/                 # EDA, preprocessing, training notebooks
-├── data/                      # Raw (if allowed) and processed datasets (anonymized)
-├── requirements.txt
-└── README.md
+- LeprosyFootMeasurement/
+- ├── app.py                     # Streamlit UI
+- ├── model/                     # Saved clustering & classification artifacts
+- ├── notebooks/                 # EDA, preprocessing, training notebooks
+- ├── data/                      # Raw (if allowed) and processed datasets (anonymized)
+- ├── requirements.txt
+- └── README.md
 
 ---
 
@@ -143,5 +143,5 @@ LeprosyFootMeasurement/
 
 ---
 
-##License
+# License
 MIT License
