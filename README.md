@@ -116,7 +116,7 @@ LeprosyFootMeasurement/
 
 ---
 
-##Limitations & caveats
+## Limitations & caveats
 The model is trained on a restricted clinical dataset; do not generalize outside similar populations without retraining.
 
 Cluster-based estimates are approximations (useful when original measurements aren't available) — always combine with clinical judgment.
@@ -134,7 +134,7 @@ Improve uncertainty quantification for reconstruction (e.g., prediction interval
 
 ---
 
-##Credits & contact
+## Credits & contact
 Author: Aditya K
 Dataset partner: Lepra India (research permission required)
 Live demo: https://leprosyfootmeasurement-6q355ryea5aqvnlnra2ddg.streamlit.app/
