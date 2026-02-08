@@ -117,29 +117,29 @@ LeprosyFootMeasurement/
 ---
 
 ## Limitations & caveats
-The model is trained on a restricted clinical dataset; do not generalize outside similar populations without retraining.
+- The model is trained on a restricted clinical dataset; do not generalize outside similar populations without retraining.
 
-Cluster-based estimates are approximations (useful when original measurements aren't available) — always combine with clinical judgment.
+- Cluster-based estimates are approximations (useful when original measurements aren't available) — always combine with clinical judgment.
 
-Predictions are probabilistic; use full clinical assessment for care decisions.
+- Predictions are probabilistic; use full clinical assessment for care decisions.
 
-Future improvements
-Incorporate 3D foot scanning comparison for validation and higher-fidelity reconstruction.
+## Future improvements
+- Incorporate 3D foot scanning comparison for validation and higher-fidelity reconstruction.
 
-Expand dataset with multi-region clinical data for better generalization.
+- Expand dataset with multi-region clinical data for better generalization.
 
-Add a guidance module to recommend footwear/prosthetics options based on predicted foot geometry.
+- Add a guidance module to recommend footwear/prosthetics options based on predicted foot geometry.
 
-Improve uncertainty quantification for reconstruction (e.g., prediction intervals around estimated dimensions).
+- Improve uncertainty quantification for reconstruction (e.g., prediction intervals around estimated dimensions).
 
 ---
 
 ## Credits & contact
-Author: Aditya K
-Dataset partner: Lepra India (research permission required)
-Live demo: https://leprosyfootmeasurement-6q355ryea5aqvnlnra2ddg.streamlit.app/
-Repository: https://github.com/AdityaRKori/LeprosyFootMeasurement
-LinkedIn: https://www.linkedin.com/in/aditya-kori-0853b6229
+- **Author:** Aditya K
+- **Dataset partner:** Lepra India (research permission required)
+- **Live demo:** https://leprosyfootmeasurement-6q355ryea5aqvnlnra2ddg.streamlit.app/
+- **Repository:** https://github.com/AdityaRKori/LeprosyFootMeasurement
+- **LinkedIn:** https://www.linkedin.com/in/aditya-kori-0853b6229
 
 ---
 
